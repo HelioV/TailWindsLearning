@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito-Regular";
+    overflow-x: visible;
+}
+
+span{
+    color: #8e94a9;
+}
+
+span:hover{
+    color: #fff;
+    transition: all 1s;
+}
+.lista{
+    font-size: 13px;
+    line-height: 13px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.lista li{
+    color: #888;
+    margin-left: 10px;
+}
+
+.pointer{
+    color: #44CE42;
+}
+.active{
+    /*border-left: 2px solid #44CE42;*/
+}
+
+.menu{
+    font-family: "Nunito-Medium";
+    font-size: 14px;
+    line-height: 25.05px;
+}
+.ninu-regular{
+    font-family: "Nunito-Regular";
+    font-weight: 400;
+    line-height: 40px;
+    color: #7e7e7e;
+    font-size: 14px;
+}
+
+.ninu-bold{
+    font-family: "Nunito-Bold";
+    font-weight: 400;
+    line-height: 40px;
+    color: #7e7e7e;
+    font-size: 12px;
+}
+@font-face 
+{
+    font-family: Poppis;
+    src: url(../font/Poppins-Regular.ttf);
+}
+
+@font-face 
+{
+    font-family: Nunito-Bold;
+    src: url(../font/Nunito-Bold.ttf);
+}
+
+@font-face 
+{
+    font-family: Nunito-Regular;
+    src: url(../font/Nunito-Regular.ttf);
+}
+
+@font-face 
+{
+    font-family: Nunito-Medium;
+    src: url(../font/Nunito-Medium.ttf);
+}
